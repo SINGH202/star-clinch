@@ -2,15 +2,15 @@ export const config = {
   navLinks: [
     {
       label: "Celebrities",
-      link: "/",
+      link: "/celebrities",
     },
     {
       label: "Join Community",
-      link: "/",
+      link: "/join-community",
     },
     {
       label: "About Us",
-      link: "/",
+      link: "/about-us",
     },
   ],
   performanceDetailsPoints: [

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import { Navbar } from "@/components/Navbar";
 import { ShowDetails } from "@/components/ShowDetails";
@@ -6,6 +5,7 @@ import { ArtistImage } from "@/components/ArtistImage";
 import { PerformanceDetails } from "@/components/PerformanceDetails";
 import { Footer } from "@/components/Footer";
 import { FeaturesAndReviewSection } from "@/components/FeaturesAndReviewSection";
+import { PerformanceSlide } from "@/components/ShowSlider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +20,7 @@ export default function Home() {
       </div>
       <PerformanceDetails />
       <FeaturesAndReviewSection />
+      <PerformanceSlide />
       <Footer />
     </main>
   );
