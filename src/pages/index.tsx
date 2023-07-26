@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { ShowDetails } from "@/components/ShowDetails";
 import { ArtistImage } from "@/components/ArtistImage";
 import { PerformanceDetails } from "@/components/PerformanceDetails";
+import { Footer } from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function Home() {
         <ShowDetails />
       </div>
       <PerformanceDetails />
+      <Footer />
     </main>
   );
 }
