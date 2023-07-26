@@ -20,3 +20,28 @@ body {
   color: rgb(var(--foreground-rgb));
   background: #101010;
 }
+
+.performance-bg {
+  border-radius: 550px 550px 0px 0px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  flex-shrink: 0;
+  backdrop-filter: blur(11px);
+}
+
+.performance-details-card-border {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.performance-details-card {
+  background: #1a1919;
+  border-radius: 550px 550px 0px 0px;
+  flex-shrink: 0;
+}
