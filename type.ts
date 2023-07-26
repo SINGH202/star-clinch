@@ -26,3 +26,19 @@ export type PerformanceDetailsPointProps = {
 export type PerformanceDetailsPointsProps = {
   points: PerformanceDetailsPointProps[];
 };
+
+export type RatingProps = {
+  rating: number;
+  title: string;
+};
+
+export type RatingsProps = {
+  reviewCount: number;
+  ratings: RatingProps[];
+};
+
+export type ReviewProps = {
+  name: string;
+  bookedDate: string;
+  review: string;
+};
