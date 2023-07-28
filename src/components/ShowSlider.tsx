@@ -22,7 +22,9 @@ export const PerformanceSlide = () => {
         />
       </div>
       {/* <Carousel autoSlide slides={["", "", ""]} /> */}
-      <div className="flex gap-10 overflow-y-hidden relative">
+      <div className="grid grid-flow-col gap-10 overflow-x-scroll w-full relative px-5">
+        <SlideCard />
+        <SlideCard />
         <SlideCard />
       </div>
     </div>
@@ -31,7 +33,7 @@ export const PerformanceSlide = () => {
 
 export const SlideCard = () => {
   return (
-    <div className="w-full slide-card max-w-[800px] h-[680px] rounded-[41px] bg-gradient-to-t from-gray-400 via-black to-gray-400 p-[1px] overflow-hidden">
+    <div className="w-[800px] h-[680px] rounded-[41px] bg-gradient-to-t from-gray-400 via-black to-gray-400 p-[1px] overflow-hidden">
       <div className="w-full h-full bg-black rounded-[41px] overflow-hidden">
         <div className="">
           <Image
